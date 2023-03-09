@@ -1,0 +1,31 @@
+{
+  "name": "esptool-node",
+  "version": "0.0.1",
+  "description": "Experimental ",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "lint": "eslint --ext mts .",
+    "start": "node --loader tsx index.mts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "HipsterBrown <headhipster@hipsterbrown.com>",
+  "license": "ISC",
+  "dependencies": {
+    "pako": "^2.1.0",
+    "serialport": "^10.5.0",
+    "usb": "^2.8.2"
+  },
+  "devDependencies": {
+    "@serialport/bindings-interface": "^1.2.2",
+    "@tsconfig/node-lts-strictest-esm": "^18.12.1",
+    "@types/node": "18",
+    "@types/pako": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  }
+}

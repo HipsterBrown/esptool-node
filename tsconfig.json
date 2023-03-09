@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": "@tsconfig/node-lts-strictest-esm",
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "dist",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "index.mts",
+    "targets",
+   ]
+}
