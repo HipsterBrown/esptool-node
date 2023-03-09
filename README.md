@@ -2,6 +2,8 @@
 
 A port of [esptool-js](https://github.com/espressif/esptool-js) to Node.js to replace the use of [esptool.py](https://github.com/espressif/esptool) for flashing Espressif devices from the command line.
 
+**This is a work in progress and is not functional yet.**
+
 Requirements:
 
 Node.js v18
